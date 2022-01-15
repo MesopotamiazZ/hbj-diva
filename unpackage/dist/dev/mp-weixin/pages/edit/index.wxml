@@ -1,0 +1,1 @@
+<view class="profile-page"><block wx:if="{{isCustomer}}"><view class="customer-page"></view></block><block wx:if="{{!isCustomer}}"><view class="business-page"></view></block></view>

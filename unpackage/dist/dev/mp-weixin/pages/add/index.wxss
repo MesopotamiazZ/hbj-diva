@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.add-product-page.data-v-65a9288a {
+  width: 100vw;
+  height: 100vh;
+}
+.left.data-v-65a9288a:before {
+  content: "*";
+  height: 20rpx;
+  display: inline-block;
+  line-height: 100%;
+  font-size: 36rpx;
+  color: red;
+}
+.wrap.data-v-65a9288a {
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  background: #f9f9f9;
+}
+.card.data-v-65a9288a {
+  box-sizing: border-box;
+  margin-top: 20rpx;
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+}
+.img-list.data-v-65a9288a {
+  width: 100%;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+.img-list .img-wrap.data-v-65a9288a {
+  margin: 10rpx;
+  overflow: hidden;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 8rpx;
+}
+.img-list .img.data-v-65a9288a {
+  width: 100%;
+  background: #d8d8d8;
+  border-radius: 8rpx;
+}
+.up_img_wrap.data-v-65a9288a {
+  margin: 10rpx;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 8rpx;
+  background: #fff;
+  border: 2rpx dashed #cecece;
+}
+.up_img_wrap .btn.data-v-65a9288a {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+.up_img_wrap .btn .iconfont.data-v-65a9288a {
+  color: #cecece;
+  font-size: 100rpx;
+}
+.title.data-v-65a9288a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+.title > .title-right.data-v-65a9288a {
+  font-size: 34rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #999999;
+}
+.title > .title-right .title-right-switch.data-v-65a9288a {
+  margin-left: 20rpx;
+}
+.card .btns.data-v-65a9288a {
+  padding: 0;
+}
+.card .btns .btn.data-v-65a9288a {
+  font-size: 34rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #ffffff;
+}
+.operactor-btns.data-v-65a9288a {
+  padding: 40rpx 0 20rpx 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.btns .btn.data-v-65a9288a {
+  height: 80rpx;
+}
+.submit-btn.data-v-65a9288a {
+  width: 92%;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #047cec;
+  border-color: #047cec;
+  border-radius: 40rpx;
+  color: #fff;
+  margin-bottom: 40rpx;
+}
+.data-v-65a9288a .uni-input-placeholder {
+  text-align: right;
+  font-size: 28rpx;
+}
+.data-v-65a9288a .uni-input-input {
+  text-align: right;
+  font-size: 28rpx !important;
+}
+.data-v-65a9288a .uni-list-item {
+  height: 108rpx !important;
+}
+.data-v-65a9288a .uni-input-input {
+  font-size: 34rpx;
+}
+.data-v-65a9288a .uni-list--border:after {
+  background: #fff;
+}
+.default-tip-style.data-v-65a9288a {
+  font-size: 34rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #999999;
+}
+.flex.data-v-65a9288a {
+  display: flex;
+}
+.fc.data-v-65a9288a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slot-box.data-v-65a9288a {
+  color: #666 !important;
+}
+.ease-input.data-v-65a9288a {
+  text-align: right;
+  width: 50vw;
+  height: 100%;
+}
+

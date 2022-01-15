@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "product-card": "/components/product-card/index",
+    "uni-list": "/node-modules/@dcloudio/uni-ui/lib/uni-list/uni-list"
+  }
+}
